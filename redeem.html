@@ -142,7 +142,18 @@
         const data = await res.json();
         if (data.success) {
           result.className = "result success";
-          result.textContent = data.message || "Rewards have been added to your account!";
+          if (data.reward_labels) {
+            const labels = data.reward_labels;
+            const lines = [];
+            for (const lang of ["ko", "ja", "zh_TW"]) {
+              if (labels[lang]) {
+                lines.push(labels[lang].join(" / "));
+              }
+            }
+            result.innerHTML = lines.join("<br>");
+          } else {
+            result.textContent = "OK";
+          }
         } else {
           result.className = "result error";
           result.textContent = data.message || "Invalid code or Player ID.";
