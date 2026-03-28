@@ -56,12 +56,12 @@
       color: #666;
     }
     input:focus {
-      border-color: #7ab3ff;
+      border-color: #aaa;
     }
     button {
       width: 100%;
       padding: 14px;
-      background: #7ab3ff;
+      background: #ffffff;
       color: #000;
       border: none;
       border-radius: 8px;
@@ -71,7 +71,7 @@
       margin-top: 4px;
     }
     button:hover {
-      background: #5a9aef;
+      background: #ccc;
     }
     button:disabled {
       background: #333;
@@ -83,8 +83,8 @@
       font-size: 0.95rem;
       min-height: 24px;
     }
-    .result.success { color: #7ab3ff; }
-    .result.error { color: #ff6b6b; }
+    .result.success { color: #fff; }
+    .result.error { color: #999; }
     footer {
       position: fixed;
       bottom: 0;
@@ -104,7 +104,7 @@
 <body>
   <div class="overlay"></div>
   <div class="container">
-    <h1>Redeem Code</h1>
+    <h1>COUPON</h1>
     <input type="text" id="uid" placeholder="Player ID" autocomplete="off">
     <input type="text" id="code" placeholder="Coupon Code" autocomplete="off">
     <button id="submit" onclick="redeem()">Submit</button>
