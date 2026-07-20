@@ -1,0 +1,50 @@
+{
+  "_edit_guide": [
+    "화면별 도움말 텍스트. 키 = 화면명(main_shell.gd _INFO_TITLES와 일치), 값 = bbcode 블록 배열.",
+    "블록 하나 = 문단 하나(RichTextLabel). 여러 문단은 배열에 항목 추가.",
+    "색: 제목 [color=#00F2E6], 본문 강조 흰색(기본), 부가설명 [color=#B3B3B3], 강조수치 [color=#FFD35A].",
+    "이 _edit_guide 키는 렌더에 안 쓰임(화면명 아님) — 편집 메모용. 지워도 됨."
+  ],
+  "home": [
+    "[color=#B3B3B3]은하삼국지의 자원과 아이템 안내입니다.[/color]",
+    "[font_size=36][color=#00F2E6]자원[/color][/font_size]\n[color=#FFD35A]금전[/color]\n[color=#B3B3B3]획득[/color]  출정 승리 보상\n[color=#B3B3B3]용도[/color]  은하 확장 · 개발 투자 · 병종 훈련\n\n[color=#FFD35A]군량[/color]\n[color=#B3B3B3]획득[/color]  일괄 수확\n[color=#B3B3B3]용도[/color]  출정 비용 · 장수 수련 · 회복권/갱신권 구매",
+    "[font_size=36][color=#00F2E6]영구 계정 아이템[/color][/font_size]\n[color=#FFD35A]소환권[/color]  10연 소환 1회\n[color=#FFD35A]초월권[/color]  5돌파 장수 초월",
+    "[font_size=36][color=#00F2E6]한정 시즌 아이템[/color][/font_size]\n[color=#FFD35A]회복권[/color]  장수 전체 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신"
+  ],
+  "codex": [
+    "[color=#00F2E6]인재 안내[/color]",
+    "[color=#B3B3B3]장수 리스트 화면 도움말을 작성하세요.[/color]"
+  ],
+  "character": [
+    "[color=#00F2E6]장수 육성 안내[/color]",
+    "[color=#B3B3B3]수련·돌파·초월·각성 설명을 작성하세요.[/color]"
+  ],
+  "summon": [
+    "[color=#00F2E6]소환 안내[/color]",
+    "[color=#B3B3B3]소환권·픽업·천장(50회 확정) 설명을 작성하세요.[/color]"
+  ],
+  "military": [
+    "[color=#00F2E6]출정 안내[/color]",
+    "[color=#B3B3B3]출정·병종 상성·회복 설명을 작성하세요.[/color]"
+  ],
+  "economy": [
+    "[color=#00F2E6]내정 안내[/color]",
+    "[color=#B3B3B3]영지·개발·군량·은하 확장 설명을 작성하세요.[/color]"
+  ],
+  "shop": [
+    "[color=#00F2E6]상점 안내[/color]",
+    "[color=#B3B3B3]상점 도움말을 작성하세요.[/color]"
+  ],
+  "ranking": [
+    "[color=#00F2E6]랭킹 안내[/color]",
+    "[color=#B3B3B3]랭킹 도움말을 작성하세요.[/color]"
+  ],
+  "quest": [
+    "[color=#00F2E6]임무 안내[/color]",
+    "[color=#B3B3B3]임무·보상 도움말을 작성하세요.[/color]"
+  ],
+  "alliance": [
+    "[color=#00F2E6]연합 안내[/color]",
+    "[color=#B3B3B3]연합 가입·출석·연합출정 설명을 작성하세요.[/color]"
+  ]
+}
