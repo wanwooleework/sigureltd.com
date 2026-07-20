@@ -42,14 +42,16 @@
     "[color=#00F2E6]은하 확장[/color]  금전으로 은하를 구매하여 확장\n[color=#B3B3B3]NGC 55: 10,000 금전\nNGC 247: 30,000 금전\nNGC 300: 80,000 금전\nNGC 404: 190,000 금전\nNGC 613: 420,000 금전\nNGC 891: 890,000 금전\nNGC 1097: 1,840,000 금전\nNGC 1532: 3,750,000 금전\nNGC 2841: 7,580,000 금전[/color]\n\n[color=#00F2E6]개발 투자[/color]  5은하 이후, 금전으로 개발 직접 투자 가능\n[color=#B3B3B3]신규 은하 확장의 절반 효율[/color]\n\n",
     "[color=#00F2E6]개발[/color]\n[color=#B3B3B3]일정 군량을 수확할 때마다 개발 +1, 해당 은하의 군량 보상 상승[/color]\n\n",
     "[color=#00F2E6]위험도[/color]\n[color=#B3B3B3]해당 은하에 출현하는 적군 장수의 무력 합계를 결정, 병종은 랜덤[/color]\n\n",
-    "[color=#FFD35A]수확 보상[/color]\n[color=#B3B3B3]후반 은하로 갈수록 기본 배수 증가\n배치 지력 합계와 개발에 비례하여 보상 증가[/color]"
+    "[color=#FFD35A]수확 보상[/color]\n후반 은하로 갈수록 기본 배수 증가\n배치 지력 합계와 개발에 비례하여 보상 증가"
   ],
   "shop": [
-    "[color=#FFD35A]소환권[/color]  10연 소환\n[color=#FFD35A]패키지[/color]  소환 · 저장창고 · 예약출정 (30일)\n\n[color=#FFD35A]회복권[/color]  장수 전체 즉시 회복\n[color=#FFD35A]갱신권[/color]  적군 새로 갱신\n[color=#B3B3B3]첫 가격 = 최고 은하 출정비, 살수록 2배, 매일 오전 9시 리셋[/color]\n\n[color=#FFD35A]병종 훈련[/color]  금전으로 출정 무력 +5 / +10 / +15%"
+    "[color=#00F2E6]현금 상품[/color]\n[color=#FFD35A]소환권 패키지[/color]  소환권 3개 (시즌 1회 할인)\n[color=#FFD35A]저장창고 패키지[/color]  30일간 군량 24시간 저장\n[color=#FFD35A]예약출정 패키지[/color]  30일간 회복 중 예약출정\n[color=#FFD35A]소환권[/color]  1 · 5 · 10개 단위\n\n",
+    "[color=#00F2E6]금전 상품[/color]\n[color=#FFD35A]병종 훈련[/color]  보병 · 기병 · 궁병\n[color=#B3B3B3]출정 무력 +5 / +10 / +15% (3단계)\n비용 누진: 10만 → 30만 → 60만 금전[/color]\n\n",
+    "[color=#00F2E6]군량 상품[/color]\n[color=#FFD35A]회복권[/color]  장수 전원 즉시 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신\n[color=#B3B3B3]가격 = 최고 은하 출정비에서 시작, 하루에 살수록 2배씩\n매일 오전 9시 리셋[/color]"
   ],
   "ranking": [
-    "[color=#00F2E6]개인 랭킹 — 3축 동시[/color]\n[color=#FFD35A]군량[/color]  누적 획득량\n[color=#FFD35A]능력[/color]  무력 + 지력 총합\n[color=#FFD35A]출정[/color]  출정 횟수\n\n",
-    "[color=#00F2E6]연합 랭킹[/color]\n[color=#B3B3B3]멤버 전원의 출정 금전 합[/color]\n\n",
+    "[color=#00F2E6]개인 랭킹[/color]\n[color=#FFD35A]군량 획득[/color]  일괄 수확으로 인한 누적 획득량\n[color=#FFD35A]능력 총합[/color]  모든 장수의 무력, 지력 총합\n[color=#FFD35A]출정 횟수[/color]  승패와 관련없는 모든 출정 횟수\n\n",
+    "[color=#00F2E6]연합 랭킹[/color]\n[color=#B3B3B3]멤버 전원의 출정 금전 보상 합계[/color]\n\n",
     "[color=#FFD35A]칭호[/color]  개인 각 축 1위 · 1위 연합 전원에게 부여"
   ],
   "quest": [
