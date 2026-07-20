@@ -6,9 +6,10 @@
     "이 _edit_guide 키는 렌더에 안 쓰임(화면명 아님) — 편집 메모용. 지워도 됨."
   ],
   "home": [
-    "[color=#B3B3B3]은하삼국지의 자원과 아이템 안내입니다.[/color]\n",
-    "[font_size=36][color=#00F2E6]자원[/color][/font_size]\n\n[color=#FFD35A]금전[/color]\n[color=#B3B3B3]획득[/color]  출정 승리\n[color=#B3B3B3]용도[/color]  은하 확장 · 개발 투자 · 병종 훈련\n\n[color=#FFD35A]군량[/color]\n[color=#B3B3B3]획득[/color]  일괄 수확\n[color=#B3B3B3]용도[/color]  출정 비용 · 장수 수련 · 회복권/갱신권 구매\n",
-    "[font_size=36][color=#00F2E6]영구 계정 아이템[/color][/font_size]\n[color=#FFD35A]소환권[/color]  10연 소환 1회\n[color=#FFD35A]초월권[/color]  5돌파 장수 초월\n",
+    "[color=#00F2E6]본부 안내[/color]\n\n",
+    "[color=#B3B3B3]은하삼국지의 자원과 아이템 안내입니다.[/color]\n\n",
+    "[font_size=36][color=#00F2E6]자원[/color][/font_size]\n[color=#FFD35A]금전[/color]\n[color=#B3B3B3]획득[/color]  출정 승리\n[color=#B3B3B3]용도[/color]  은하 확장 · 개발 투자 · 병종 훈련\n[color=#FFD35A]군량[/color]\n[color=#B3B3B3]획득[/color]  일괄 수확\n[color=#B3B3B3]용도[/color]  출정 비용 · 장수 수련 · 회복권/갱신권 구매\n\n",
+    "[font_size=36][color=#00F2E6]영구 계정 아이템[/color][/font_size]\n[color=#FFD35A]소환권[/color]  10연 소환 1회\n[color=#FFD35A]초월권[/color]  5돌파 장수 초월\n\n",
     "[font_size=36][color=#00F2E6]한정 시즌 아이템[/color][/font_size]\n[color=#FFD35A]회복권[/color]  장수 전체 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신"
   ],
   "codex": [
