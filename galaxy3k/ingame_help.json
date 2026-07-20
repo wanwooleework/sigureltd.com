@@ -17,16 +17,16 @@
     "[color=#B3B3B3]보유한 장수 일람, 탭하면 상세 화면으로 진입[/color]\n\n",
     "[color=#00F2E6]능력치[/color]\n[color=#FFD35A]지력[/color]  군량 생산 및 저장 시간 증가\n[color=#FFD35A]무력[/color]  출정 수입 증가 및 회복 시간 감소\n\n",
     "[color=#00F2E6]병종 상성[/color]\n[color=#B3B3B3]보병 < 기병 < 궁병 < 보병[/color]\n\n",
-    "[color=#00F2E6]버전 표기[/color]\n[color=#B3B3B3]1성 0돌파 장수는 v.1.0\n2성 1초월 2돌파 장수는 v.3.2\n3성 2초월 5돌파 3각성 장수는 v.5.8[/color]"
+    "[color=#00F2E6]버전 표기[/color]\n[color=#B3B3B3]기본적으로 성급과 돌파를 표시\n1성 0돌파 장수는 v.1.0\n2성 1초월 2돌파 장수는 v.3.2\n3성 2초월 5돌파 3각성 장수는 v.5.8[/color]"
   ],
   "character": [
     "[color=#B3B3B3]장수 강화는 수련, 돌파, 초월, 각성의 4단계로 구성[/color]\n\n",
-    "[color=#FFD35A]수련[/color]  군량으로 능력치 최대 +20\n[color=#B3B3B3]시즌 리셋 대상[/color]\n\n[color=#FFD35A]돌파[/color]  같은 장수 중복 소환시 자동 +1\n[color=#B3B3B3]최대 5돌파, 두 능력치 +5%[/color]\n\n[color=#FFD35A]초월[/color]  5돌파 후 초월 가능, 두 능력치 +10\n[color=#B3B3B3]최대 2초월[/color]\n\n[color=#FFD35A]각성[/color]  2초월·5돌파 후 같은 병종의 2초월·5돌파 장수 소비, 선택 능력치 +10\n[color=#B3B3B3]최대 4각성[/color]\n\n",
+    "[color=#FFD35A]수련[/color]  군량으로 능력치 최대 +20\n[color=#B3B3B3]시즌 리셋 대상[/color]\n\n[color=#FFD35A]돌파[/color]  같은 장수 중복 소환시 자동 +1\n[color=#B3B3B3]최대 5돌파, 두 능력치 +5%[/color]\n\n[color=#FFD35A]초월[/color]  5돌파 후 초월 가능\n[color=#B3B3B3]최대 2초월, 두 능력치 +10[/color]\n\n[color=#FFD35A]각성[/color]  2초월·5돌파 후 같은 병종의 2초월·5돌파 장수 소비\n[color=#B3B3B3]최대 4각성, 선택 능력치 +10[/color]\n\n",
     "[color=#00F2E6]돌파 · 초월 · 각성은 영구[/color]\n[color=#B3B3B3]시즌이 지나도 보존[/color]"
   ],
   "summon": [
     "[color=#00F2E6]한정팩[/color]\n[color=#B3B3B3]매 시즌 병종별 픽업 장수를 포함한 한정팩 3종 등장\n한정팩은 해당 시즌 종료 후 정규팩으로 편입\n\n[color=#00F2E6]정규팩[/color]\n정규팩은 이전 시즌의 한정팩 픽업 장수들이 모여있는 상시 소환팩\n3성 장수 중 하나를 지정해 픽업 대상으로 선택 가능[/color]\n\n",
-    "[color=#FFD35A]소환권 1장[/color]  10연 소환\n\n[color=#FFD35A]3성 확률[/color]  약 3.23%\n[color=#B3B3B3]3성이 뜨면 50% 확률로 픽업 장수[/color]\n\n[color=#FFD35A]천장[/color]  같은 한정팩 50뽑마다 픽업 확정\n\n",
+    "[color=#FFD35A]소환권 1장[/color]  10연 소환\n\n[color=#FFD35A]3성 확률[/color]  약 3.23%\n[color=#B3B3B3]3성 소환 시 50% 확률로 픽업 장수 획득[/color]\n\n[color=#FFD35A]확정 획득[/color]  같은 한정팩 50소환마다 픽업 장수 확정 획득\n\n",
     "[color=#B3B3B3]자세한 확률·등장 장수는 하단 '확률 안내' 참고[/color]"
   ],
   "military": [
@@ -39,8 +39,10 @@
   ],
   "economy": [
     "[color=#B3B3B3]3인까지 배치 가능\n시간에 따라 저장되는 군량을 수확\n\n",
-    "[color=#00F2E6]은하 확장[/color]\n[color=#B3B3B3]NGC 55: 10,000 금전\nNGC 247: 30,000 금전\nNGC 300: 80,000 금전\nNGC 404: 190,000 금전\nNGC 613: 420,000 금전\nNGC 891: 890,000 금전\nNGC 1097: 1,840,000 금전\nNGC 1532: 3,750,000 금전\nNGC 2841: 7,580,000 금전[/color]\n\n[color=#00F2E6]개발 투자[/color]  5은하 이후, 금전으로 개발 직접 투자 가능\n[color=#B3B3B3]신규 은하 확장의 절반 효율[/color]\n\n",
-    "[color=#FFD35A]수확 보상[/color]\n[color=#B3B3B3]후반 은하로 갈수록 기본 배수 증가, 배치 지력 합계와 개발에 비례하여 보상 증가[/color]"
+    "[color=#00F2E6]은하 확장[/color]  금전으로 은하를 구매하여 확장\n[color=#B3B3B3]NGC 55: 10,000 금전\nNGC 247: 30,000 금전\nNGC 300: 80,000 금전\nNGC 404: 190,000 금전\nNGC 613: 420,000 금전\nNGC 891: 890,000 금전\nNGC 1097: 1,840,000 금전\nNGC 1532: 3,750,000 금전\nNGC 2841: 7,580,000 금전[/color]\n\n[color=#00F2E6]개발 투자[/color]  5은하 이후, 금전으로 개발 직접 투자 가능\n[color=#B3B3B3]신규 은하 확장의 절반 효율[/color]\n\n",
+    "[color=#00F2E6]개발[/color]\n[color=#B3B3B3]일정 군량을 수확할 때마다 개발 +1, 해당 은하의 군량 보상 상승[/color]\n\n",
+    "[color=#00F2E6]위험도[/color]\n[color=#B3B3B3]해당 은하에 출현하는 적군 장수의 무력 합계를 결정, 병종은 랜덤[/color]\n\n",
+    "[color=#FFD35A]수확 보상[/color]\n[color=#B3B3B3]후반 은하로 갈수록 기본 배수 증가\n배치 지력 합계와 개발에 비례하여 보상 증가[/color]"
   ],
   "shop": [
     "[color=#FFD35A]소환권[/color]  10연 소환\n[color=#FFD35A]패키지[/color]  소환 · 저장창고 · 예약출정 (30일)\n\n[color=#FFD35A]회복권[/color]  장수 전체 즉시 회복\n[color=#FFD35A]갱신권[/color]  적군 새로 갱신\n[color=#B3B3B3]첫 가격 = 최고 은하 출정비, 살수록 2배, 매일 오전 9시 리셋[/color]\n\n[color=#FFD35A]병종 훈련[/color]  금전으로 출정 무력 +5 / +10 / +15%"
