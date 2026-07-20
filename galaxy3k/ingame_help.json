@@ -50,8 +50,8 @@
     "[color=#00F2E6]군량 상품[/color]\n[color=#FFD35A]회복권[/color]  장수 전원 즉시 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신\n[color=#B3B3B3]가격은 최고 은하 출정비와 동일, 구매마다 2배씩 증가\n매일 오전 9시 가격 리셋[/color]"
   ],
   "ranking": [
-    "[color=#00F2E6]개인 랭킹[/color]\n[color=#FFD35A]군량 획득[/color]  [color=#B3B3B3]일괄 수확으로 인한 누적 획득량[/color]\n1위 상국 · 2·3위 시중\n[color=#FFD35A]능력 총합[/color]  [color=#B3B3B3]모든 장수의 무력, 지력 총합[/color]\n1위 태부 · 2·3위 소부\n[color=#FFD35A]출정 횟수[/color]  [color=#B3B3B3]승패와 관련없는 모든 출정 횟수[/color]\n1위 대사마 · 2·3위 사마\n\n",
-    "[color=#00F2E6]연합 랭킹[/color]\n[color=#B3B3B3]멤버 전원의 출정 금전 보상 합계[/color]\n[color=#FFD35A]패왕[/color]  1위 연합의 점수 1등\n[color=#FFD35A]영웅집결[/color]  1위 연합원 전원"
+    "[color=#00F2E6]개인 랭킹[/color]\n[color=#FFD35A]군량 획득[/color]  [color=#B3B3B3]일괄 수확으로 인한 누적 획득량[/color]\n1위 상국 · 2·3위 시중 칭호 획득\n[color=#FFD35A]능력 총합[/color]  [color=#B3B3B3]모든 장수의 무력, 지력 총합[/color]\n1위 태부 · 2·3위 소부 칭호 획득\n[color=#FFD35A]출정 횟수[/color]  [color=#B3B3B3]승패와 관련없는 모든 출정 횟수[/color]\n1위 대사마 · 2·3위 사마 칭호 획득\n\n",
+    "[color=#00F2E6]연합 랭킹[/color]\n[color=#B3B3B3]멤버 전원의 출정 금전 보상 합계[/color]\n[color=#FFD35A]패왕[/color]  1위 연합의 점수 1등 칭호 획득\n[color=#FFD35A]영웅집결[/color]  1위 연합원 전원 칭호 획득"
   ],
   "quest": [
     "[color=#00F2E6]임무 종류[/color]\n[color=#FFD35A]일일[/color]  매일 오전 9시 리셋\n[color=#FFD35A]주간[/color]  일요일 오전 9시 리셋\n[color=#FFD35A]시즌[/color]  시즌 리셋\n\n",
