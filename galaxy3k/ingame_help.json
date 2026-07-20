@@ -10,7 +10,8 @@
     "[color=#00F2E6]자원[/color]\n[color=#FFD35A]금전[/color]\n[color=#B3B3B3]획득[/color]  출정 승리\n[color=#B3B3B3]용도[/color]  은하 확장 · 개발 투자 · 병종 훈련\n[color=#FFD35A]군량[/color]\n[color=#B3B3B3]획득[/color]  일괄 수확\n[color=#B3B3B3]용도[/color]  출정 비용 · 장수 수련 · 회복권/갱신권 구매\n\n",
     "[color=#00F2E6]영구 계정 아이템[/color]\n[color=#FFD35A]소환권[/color]  10연 소환 1회\n[color=#FFD35A]초월권[/color]  5돌파 장수 초월\n\n",
     "[color=#00F2E6]한정 시즌 아이템[/color]\n[color=#FFD35A]회복권[/color]  장수 전체 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신\n\n",
-    "[color=#00F2E6]신호포착[/color]\n[color=#B3B3B3]30초간 신호 곡선의 점을 가로선으로 따라가는 미니게임\n가로선은 터치에 따라 위아래로 이동\n가로선이 점 근처에서 초록색 영역에 있는 시간이 누적되면 성공\n일정 확률로 대량의 군량을 획득하며, 완벽 동조의 경우 확률 상승\n하루 최대 200번의 보상 수령 가능[/color]"
+    "[color=#00F2E6]14일 시즌제[/color]\n[color=#FFD35A]리셋[/color]  군량 · 금전 · 은하 · 수련 · 랭킹 · 임무\n[color=#FFD35A]보존[/color]  장수(돌파, 초월, 각성) · 소환권/초월권 · 군주명 · 칭호 · 연합\n\n",
+    "[color=#00F2E6]신호포착[/color]\n[color=#B3B3B3]30초간 신호 곡선의 점을 가로선으로 따라가는 미니게임\n가로선은 터치에 따라 위아래로 이동\n가로선이 점 근처에서 초록색 영역에 있는 시간이 누적되면 성공\n성공 시 군량 획득, 완벽 동조 시 대량 보상 확률 상승\n하루 최대 200번의 보상 수령 가능[/color]"
   ],
   "codex": [
     "[color=#00F2E6]인재 안내[/color]",
