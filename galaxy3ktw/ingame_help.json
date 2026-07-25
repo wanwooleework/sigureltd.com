@@ -8,9 +8,9 @@
     "[font_size=36][color=#00F2E6]本部說明[/color][/font_size]\n\n",
     "[color=#00F2E6]資源[/color]\n[color=#FFD35A]金錢[/color]\n[color=#B3B3B3]獲得[/color]  出征勝利\n[color=#B3B3B3]用途[/color]  銀河擴張 · 開發投資 · 兵種訓練\n[color=#FFD35A]軍糧[/color]\n[color=#B3B3B3]獲得[/color]  收穫\n[color=#B3B3B3]用途[/color]  出征費用 · 武將修練 · 恢復券/刷新券 購買\n\n",
     "[color=#00F2E6]帳號道具（永久）[/color]\n[color=#FFD35A]召喚券[/color]  十連召喚 1 次\n[color=#FFD35A]超越券[/color]  5 突破武將超越\n\n",
-    "[color=#00F2E6]賽季道具（限當季）[/color]\n[color=#FFD35A]恢復券[/color]  武將全員恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍\n\n",
+    "[color=#00F2E6]賽季道具（限當季）[/color]\n[color=#FFD35A]恢復券[/color]  武將全員恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍、提升獎勵\n\n",
     "[color=#00F2E6]14 天賽季制[/color]\n[color=#FFD35A]重置[/color]  軍糧 · 金錢 · 銀河 · 修練 · 排名 · 任務 · 訓練\n[color=#FFD35A]保留[/color]  武將（突破, 超越, 覺醒） · 召喚券/超越券 · 君主名 · 稱號 · 聯盟\n\n",
-    "[color=#00F2E6]訊號捕捉[/color]\n[color=#B3B3B3]30 秒內以橫線追蹤訊號曲線上的點的小遊戲\n橫線依觸控上下移動\n橫線在點附近的綠色區域內的時間累積到一定程度即成功\n成功時獲得軍糧, 完美同步時大量獎勵機率上升\n每日最多可領取 200 次獎勵[/color]"
+    "[color=#00F2E6]訊號捕捉[/color]\n[color=#B3B3B3]30 秒內以橫線追蹤訊號曲線上的點的小遊戲\n橫線依觸控上下移動\n橫線在點附近的綠色區域內的時間累積到一定程度即成功\n成功時獲得軍糧, 完美同步時大量獎勵機率上升\n每日領取獎勵次數越多，難度越高[/color]"
   ],
   "codex": [
     "[color=#B3B3B3]持有武將一覽, 點擊進入詳細畫面[/color]\n\n",
@@ -46,7 +46,7 @@
   "shop": [
     "[color=#00F2E6]現金商品[/color]\n[color=#FFD35A]召喚券套組[/color]  召喚券 3 個 (賽季 1 次折扣)\n[color=#FFD35A]儲物套組[/color]  30 天內軍糧 24 小時儲存\n[color=#FFD35A]預約出征套組[/color]  30 天內恢復中預約出征\n[color=#FFD35A]召喚券[/color]  1 · 5 · 10 張單位\n\n",
     "[color=#00F2E6]金錢商品[/color]\n[color=#FFD35A]兵種訓練[/color]  步兵 · 騎兵 · 弓兵\n[color=#B3B3B3]出征武力 +5 / +10 / +15% (3 階段)\n費用累進: 10 萬 → 30 萬 → 60 萬 金錢[/color]\n\n",
-    "[color=#00F2E6]軍糧商品[/color]\n[color=#FFD35A]恢復券[/color]  武將全員立即恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍\n[color=#B3B3B3]價格等於最高銀河出征費, 每次購買翻倍\n每日上午 9 點價格重置[/color]"
+    "[color=#00F2E6]軍糧商品[/color]\n[color=#FFD35A]恢復券[/color]  武將全員立即恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍、提升獎勵\n[color=#B3B3B3]價格等於最高銀河出征費, 每次購買翻倍\n每日上午 9 點價格重置[/color]"
   ],
   "ranking": [
     "[color=#00F2E6]個人排名[/color]\n[color=#FFD35A]軍糧獲得[/color]  [color=#B3B3B3]收穫累積獲得量[/color]\n第 1 名相國 · 第 2·3 名侍中稱號\n[color=#FFD35A]能力總合[/color]  [color=#B3B3B3]所有武將的武力, 智力總合[/color]\n第 1 名太傅 · 第 2·3 名少府稱號\n[color=#FFD35A]出征次數[/color]  [color=#B3B3B3]不分勝敗的所有出征次數[/color]\n第 1 名大司馬 · 第 2·3 名司馬稱號\n\n",
