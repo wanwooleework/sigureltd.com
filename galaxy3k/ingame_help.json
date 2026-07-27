@@ -15,13 +15,14 @@
   ],
   "codex": [
     "[color=#B3B3B3]보유한 장수 일람, 탭하면 상세 화면으로 진입[/color]\n\n",
+    "[color=#00F2E6]필터 · 정렬[/color]\n[color=#B3B3B3]병종별 보기 · 초월 가능 / 각성 가능한 장수만 보기\n합계 · 무력 · 지력 순 정렬[/color]\n\n",
     "[color=#00F2E6]능력치[/color]\n[color=#FFD35A]지력[/color]  군량 생산 및 저장 시간 증가\n[color=#FFD35A]무력[/color]  출정 수입 증가 및 회복 시간 감소\n\n",
     "[color=#00F2E6]병종 상성[/color]\n[color=#B3B3B3]보병 < 기병 < 궁병 < 보병[/color]\n\n",
     "[color=#00F2E6]버전 표기[/color]\n[color=#B3B3B3]기본적으로 성급과 돌파를 표시\n1성 0돌파 장수는 v.1.0\n2성 1초월 2돌파 장수는 v.3.2\n3성 2초월 5돌파 3각성 장수는 v.5.8[/color]"
   ],
   "character": [
     "[color=#B3B3B3]장수 강화는 수련, 돌파, 초월, 각성의 4단계로 구성[/color]\n\n",
-    "[color=#FFD35A]수련[/color]  군량으로 능력치 최대 +20\n[color=#B3B3B3]시즌 리셋 대상[/color]\n\n[color=#FFD35A]돌파[/color]  같은 장수 중복 소환시 자동 +1\n[color=#B3B3B3]최대 5돌파, 두 능력치 +5%[/color]\n\n[color=#FFD35A]초월[/color]  5돌파 후 초월 가능\n[color=#B3B3B3]최대 2초월, 두 능력치 +10[/color]\n\n[color=#FFD35A]각성[/color]  2초월·5돌파 후 같은 병종의 2초월·5돌파 장수 소비\n[color=#B3B3B3]최대 4각성, 선택 능력치 +10[/color]\n\n",
+    "[color=#FFD35A]수련[/color]  군량으로 능력치 최대 +20\n[color=#B3B3B3]시즌 리셋 대상[/color]\n\n[color=#FFD35A]돌파[/color]  같은 장수 중복 소환시 자동 +1\n[color=#B3B3B3]최대 5돌파, 두 능력치 +5%\n초월권으로 강제돌파 가능 (1성 8장 · 2성 40장 · 3성 200장)[/color]\n\n[color=#FFD35A]초월[/color]  5돌파 후 초월 가능\n[color=#B3B3B3]최대 2초월, 두 능력치 +10\n초월 시 돌파는 0으로 초기화[/color]\n\n[color=#FFD35A]각성[/color]  2초월·5돌파 후 같은 병종의 2초월·5돌파 장수 소비\n[color=#B3B3B3]최대 4각성, 선택 능력치 +10\n이름 옆 자물쇠로 잠근 장수는 재료로 소비되지 않음[/color]\n\n",
     "[color=#00F2E6]돌파 · 초월 · 각성은 영구[/color]\n[color=#B3B3B3]시즌이 지나도 보존[/color]"
   ],
   "summon": [
