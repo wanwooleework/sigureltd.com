@@ -14,13 +14,14 @@
   ],
   "codex": [
     "[color=#B3B3B3]持有武將一覽, 點擊進入詳細畫面[/color]\n\n",
+  "[color=#00F2E6]篩選 · 排序[/color]\n[color=#B3B3B3]依兵種顯示 · 只顯示可超越／可覺醒的武將\n依合計 · 武力 · 智力排序[/color]\n\n",
     "[color=#00F2E6]能力值[/color]\n[color=#FFD35A]智力[/color]  軍糧生產及儲存時間增加\n[color=#FFD35A]武力[/color]  出征收入增加及恢復時間減少\n\n",
     "[color=#00F2E6]兵種相剋[/color]\n[color=#B3B3B3]步兵 > 弓兵 > 騎兵 > 步兵[/color]\n\n",
     "[color=#00F2E6]版本標示[/color]\n[color=#B3B3B3]基本上顯示星級與突破\n1 星 0 突破武將為 v.1.0\n2 星 1 超越 2 突破武將為 v.3.2\n3 星 2 超越 5 突破 3 覺醒武將為 v.5.8[/color]"
   ],
   "character": [
     "[color=#B3B3B3]武將強化由修練, 突破, 超越, 覺醒 4 個階段構成[/color]\n\n",
-    "[color=#FFD35A]修練[/color]  以軍糧提升能力值最多 +20\n[color=#B3B3B3]賽季重置對象[/color]\n\n[color=#FFD35A]突破[/color]  重複召喚同一武將自動 +1\n[color=#B3B3B3]最多 5 突破, 兩項能力 +5%[/color]\n\n[color=#FFD35A]超越[/color]  5 突破後可超越\n[color=#B3B3B3]最多 2 超越, 兩項能力 +10[/color]\n\n[color=#FFD35A]覺醒[/color]  2 超越·5 突破後消耗同兵種的 2 超越·5 突破武將\n[color=#B3B3B3]最多 4 覺醒, 所選能力 +10[/color]\n\n",
+    "[color=#FFD35A]修練[/color]  以軍糧提升能力值最多 +20\n[color=#B3B3B3]賽季重置對象[/color]\n\n[color=#FFD35A]突破[/color]  重複召喚同一武將自動 +1\n[color=#B3B3B3]最多 5 突破, 兩項能力 +5%\n可使用超越券強制突破 (1 星 8 張 · 2 星 40 張 · 3 星 200 張)[/color]\n\n[color=#FFD35A]超越[/color]  5 突破後可超越\n[color=#B3B3B3]最多 2 超越, 兩項能力 +10\n超越時突破歸零[/color]\n\n[color=#FFD35A]覺醒[/color]  2 超越·5 突破後消耗同兵種的 2 超越·5 突破武將\n[color=#B3B3B3]最多 4 覺醒, 所選能力 +10\n名稱旁上鎖的武將不會被消耗為素材[/color]\n\n",
     "[color=#00F2E6]突破 · 超越 · 覺醒為永久[/color]\n[color=#B3B3B3]跨賽季保留[/color]"
   ],
   "summon": [
