@@ -8,13 +8,13 @@
     "[font_size=36][color=#00F2E6]本部說明[/color][/font_size]\n\n",
     "[color=#00F2E6]資源[/color]\n[color=#FFD35A]金錢[/color]\n[color=#B3B3B3]獲得[/color]  出征勝利\n[color=#B3B3B3]用途[/color]  銀河擴張 · 開發投資 · 兵種訓練\n[color=#FFD35A]軍糧[/color]\n[color=#B3B3B3]獲得[/color]  收穫\n[color=#B3B3B3]用途[/color]  出征費用 · 武將修練 · 恢復券/刷新券 購買\n\n",
     "[color=#00F2E6]帳號道具（永久）[/color]\n[color=#FFD35A]召喚券[/color]  十連召喚 1 次\n[color=#FFD35A]超越券[/color]  5 突破武將超越\n\n",
-    "[color=#00F2E6]賽季道具（限當季）[/color]\n[color=#FFD35A]恢復券[/color]  武將全員恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍、提升獎勵\n\n",
-    "[color=#00F2E6]14 天賽季制[/color]\n[color=#FFD35A]重置[/color]  軍糧 · 金錢 · 銀河 · 修練 · 排名 · 任務 · 訓練\n[color=#FFD35A]保留[/color]  武將（突破, 超越, 覺醒） · 召喚券/超越券 · 君主名 · 稱號 · 聯盟\n\n",
+    "[color=#00F2E6]賽季道具（限當季）[/color]\n[color=#FFD35A]恢復券[/color]  武將全員恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍\n\n",
+    "[color=#00F2E6]每日上午 9 點重置[/color]\n[color=#B3B3B3]任務 · 商店價格[/color]\n若在遊玩中經過上午 9 點, 畫面不會更新\n重新連線後才會反映\n\n[color=#00F2E6]14 天賽季制[/color]\n[color=#FFD35A]重置[/color]  軍糧 · 金錢 · 銀河 · 修練 · 排名 · 任務 · 訓練\n[color=#FFD35A]保留[/color]  武將（突破, 超越, 覺醒） · 召喚券/超越券 · 君主名 · 稱號 · 聯盟\n\n",
     "[color=#00F2E6]訊號捕捉[/color]\n[color=#B3B3B3]30 秒內以橫線追蹤訊號曲線上的點的小遊戲\n橫線依觸控上下移動\n橫線在點附近的綠色區域內的時間累積到一定程度即成功\n成功時獲得軍糧, 完美同步時大量獎勵機率上升\n每日領取獎勵次數越多，難度越高[/color]"
   ],
   "codex": [
     "[color=#B3B3B3]持有武將一覽, 點擊進入詳細畫面[/color]\n\n",
-  "[color=#00F2E6]篩選 · 排序[/color]\n[color=#B3B3B3]依兵種顯示 · 只顯示可超越／可覺醒的武將\n依合計 · 武力 · 智力排序[/color]\n\n",
+    "[color=#00F2E6]篩選 · 排序[/color]\n[color=#B3B3B3]依兵種顯示 · 只顯示可超越／可覺醒的武將\n依合計 · 武力 · 智力排序[/color]\n\n",
     "[color=#00F2E6]能力值[/color]\n[color=#FFD35A]智力[/color]  軍糧生產及儲存時間增加\n[color=#FFD35A]武力[/color]  出征收入增加及恢復時間減少\n\n",
     "[color=#00F2E6]兵種相剋[/color]\n[color=#B3B3B3]步兵 > 弓兵 > 騎兵 > 步兵[/color]\n\n",
     "[color=#00F2E6]版本標示[/color]\n[color=#B3B3B3]基本上顯示星級與突破\n1 星 0 突破武將為 v.1.0\n2 星 1 超越 2 突破武將為 v.3.2\n3 星 2 超越 5 突破 3 覺醒武將為 v.5.8[/color]"
@@ -31,16 +31,16 @@
   ],
   "military": [
     "[color=#B3B3B3]3 人 1 組出征\n消耗軍糧, 勝利時獲得金錢\n敗北時軍糧及武將恢復時間各消耗一半[/color]\n\n",
-    "[color=#00F2E6]兵種相剋[/color]\n[color=#B3B3B3]步兵 > 弓兵 > 騎兵 > 步兵[/color]\n相剋優勢時武力 1.5 倍效果\n\n",
+    "[color=#00F2E6]兵種相剋[/color]\n[color=#B3B3B3]步兵 > 弓兵 > 騎兵 > 步兵[/color]\n優勢 1.5 倍, 同等 1 倍, 劣勢 0.67 倍\n敵軍武力不受相剋影響, 固定不變\n金錢報酬亦以套用相剋後的武力合計計算\n\n",
     "[color=#00F2E6]恢復[/color]\n[color=#B3B3B3]出征後需恢復, 依武將武力數值時間減少[/color]\n\n",
     "[color=#00F2E6]治安[/color]\n[color=#B3B3B3]每次出征不分勝敗 +2, 該銀河的金錢報酬上升[/color]\n\n",
     "[color=#00F2E6]偵查[/color]\n[color=#B3B3B3]比較該銀河內政配置武將的智力合計與敵軍武力合計\n達敵軍武力合計以上則偵查成功\n達敵軍武力合計 70% 以上則僅兵種偵查成功\n未達敵軍武力合計 70% 則無法偵查[/color]\n\n",
-    "[color=#00F2E6]刷新[/color]\n[color=#B3B3B3]使用刷新券刷新該銀河的敵軍\n刷新帶來的加成依銀河各自計算\n在該銀河出征勝利時歸零, 戰敗則保留[/color]\n\n",
-  "[color=#FFD35A]出征報酬[/color]\n越往後段銀河基本倍率越高\n依出征武力合計與治安比例提升報酬\n在同一銀河持續刷新, 該銀河下次勝利的報酬越高 (增幅與出征武力合計成正比)"
+    "[color=#00F2E6]刷新[/color]\n[color=#B3B3B3]使用刷新券重新配置該銀河的敵軍\n用於在兵種相剋不利時換成有利的敵軍\n刷新本身不會提升報酬[/color]\n\n",
+    "[color=#FFD35A]出征報酬[/color]\n越往後段銀河基本倍率越高\n依出征武力合計與治安比例提升報酬"
   ],
   "economy": [
-    "[color=#B3B3B3]最多可配置 3 人\n收穫隨時間儲存的軍糧\n\n",
-    "[color=#00F2E6]銀河擴張[/color]  以金錢購買銀河進行擴張\n[color=#B3B3B3]NGC 55: 10,000 金錢\nNGC 247: 30,000 金錢\nNGC 300: 80,000 金錢\nNGC 404: 190,000 金錢\nNGC 613: 420,000 金錢\nNGC 891: 890,000 金錢\nNGC 1097: 1,840,000 金錢\nNGC 1532: 3,750,000 金錢\nNGC 2841: 7,580,000 金錢[/color]\n\n[color=#00F2E6]開發投資[/color]  第 5 銀河以後, 可用金錢直接投資開發\n[color=#B3B3B3]為擴張新銀河的一半效率[/color]\n\n",
+    "[color=#B3B3B3]最多可配置 3 人\n收穫隨時間儲存的軍糧[/color]\n\n",
+    "[color=#00F2E6]銀河擴張[/color]  以金錢購買銀河進行擴張\n[color=#B3B3B3]NGC 55: 10,000 金錢\nNGC 247: 30,000 金錢\nNGC 300: 80,000 金錢\nNGC 404: 190,000 金錢\nNGC 613: 420,000 金錢\nNGC 891: 890,000 金錢\nNGC 1097: 1,840,000 金錢\nNGC 1532: 3,750,000 金錢\nNGC 2841: 7,580,000 金錢\nNGC 3949: 15,250,000 金錢\nNGC 4414: 30,600,000 金錢[/color]\n\n[color=#00F2E6]開發投資[/color]  第 5 銀河以後, 可用金錢直接投資開發\n[color=#B3B3B3]為擴張新銀河的一半效率[/color]\n\n",
     "[color=#00F2E6]開發度[/color]\n[color=#B3B3B3]每收穫一定軍糧開發度 +1, 該銀河的軍糧報酬上升[/color]\n\n",
     "[color=#00F2E6]危險度[/color]\n[color=#B3B3B3]決定該銀河出現的敵軍武將武力合計, 兵種隨機[/color]\n\n",
     "[color=#FFD35A]收穫報酬[/color]\n越往後段銀河基本倍率越高\n依配置智力合計與開發度比例提升報酬"
@@ -48,14 +48,14 @@
   "shop": [
     "[color=#00F2E6]現金商品[/color]\n[color=#FFD35A]召喚券套組[/color]  召喚券 3 個 (賽季 1 次折扣)\n[color=#FFD35A]儲物套組[/color]  30 天內軍糧 24 小時儲存\n[color=#FFD35A]預約出征套組[/color]  30 天內恢復中預約出征\n[color=#FFD35A]召喚券[/color]  1 · 5 · 10 張單位\n[color=#B3B3B3]召喚券 1 張 → 十連召喚[/color]\n\n",
     "[color=#00F2E6]金錢商品[/color]\n[color=#FFD35A]兵種訓練[/color]  步兵 · 騎兵 · 弓兵\n[color=#B3B3B3]出征武力 +5 / +10 / +15% (3 階段)\n費用累進: 10 萬 → 30 萬 → 60 萬 金錢[/color]\n\n",
-    "[color=#00F2E6]軍糧商品[/color]\n[color=#FFD35A]恢復券[/color]  武將全員立即恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍、提升獎勵\n[color=#B3B3B3]價格等於最高銀河出征費, 每次購買翻倍\n每日上午 9 點價格重置[/color]"
+    "[color=#00F2E6]軍糧商品[/color]\n[color=#FFD35A]恢復券[/color]  武將全員立即恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍\n[color=#B3B3B3]恢復券價格等於最高銀河出征費\n刷新券價格為其十分之一\n兩種商品每次購買皆翻倍\n每日上午 9 點價格重置\n若在遊玩中經過上午 9 點, 需重新連線後才會更新[/color]"
   ],
   "ranking": [
     "[color=#00F2E6]個人排名[/color]\n[color=#FFD35A]軍糧獲得[/color]  [color=#B3B3B3]收穫累積獲得量[/color]\n第 1 名相國 · 第 2·3 名侍中稱號\n[color=#FFD35A]能力總合[/color]  [color=#B3B3B3]所有武將的武力, 智力總合[/color]\n第 1 名太傅 · 第 2·3 名少府稱號\n[color=#FFD35A]出征次數[/color]  [color=#B3B3B3]不分勝敗的所有出征次數[/color]\n第 1 名大司馬 · 第 2·3 名司馬稱號\n\n",
     "[color=#00F2E6]聯盟排名[/color]\n[color=#B3B3B3]全體成員出征金錢報酬合計[/color]\n[color=#FFD35A]霸王[/color]  第 1 名聯盟積分第一者稱號\n[color=#FFD35A]英雄集結[/color]  第 1 名聯盟全員稱號"
   ],
   "quest": [
-    "[color=#00F2E6]任務種類[/color]\n[color=#FFD35A]每日[/color]  每日上午 9 點重置\n[color=#FFD35A]每週[/color]  每週日上午 9 點重置\n[color=#FFD35A]賽季[/color]  賽季重置\n\n",
+    "[color=#00F2E6]任務種類[/color]\n[color=#FFD35A]每日[/color]  每日上午 9 點重置\n[color=#FFD35A]每週[/color]  每週日上午 9 點重置\n[color=#FFD35A]賽季[/color]  賽季重置\n[color=#B3B3B3]每日 · 每週於遊玩中經過上午 9 點時, 需重新連線後才會更新[/color]\n\n",
     "[color=#00F2E6]依數量獎勵[/color]\n[color=#B3B3B3]依任務完成數量領取獎勵, 3 個 / 5 個各別[/color]"
   ],
   "alliance": [
