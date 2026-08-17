@@ -22,7 +22,7 @@
   ],
   "character": [
     "[color=#B3B3B3]장수 강화는 수련, 돌파, 초월, 각성의 4단계로 구성[/color]\n\n",
-    "[color=#FFD35A]수련[/color]  군량으로 능력치 최대 +20\n[color=#B3B3B3]시즌 리셋 대상[/color]\n\n[color=#FFD35A]돌파[/color]  같은 장수 중복 소환시 자동 +1\n[color=#B3B3B3]최대 5돌파, 두 능력치 +5%\n초월권으로 강제돌파 가능 (1성 8장 · 2성 40장 · 3성 200장)[/color]\n\n[color=#FFD35A]초월[/color]  5돌파 후 초월 가능\n[color=#B3B3B3]최대 2초월, 두 능력치 +10\n초월 시 돌파는 0으로 초기화[/color]\n\n[color=#FFD35A]각성[/color]  2초월·5돌파 후 같은 병종의 2초월·5돌파 장수 소비\n[color=#B3B3B3]최대 4각성, 선택 능력치 +10\n이름 옆 자물쇠로 잠근 장수는 재료로 소비되지 않음[/color]\n\n",
+    "[color=#FFD35A]수련[/color]  군량으로 능력치 최대 +20\n[color=#B3B3B3]시즌 리셋 대상[/color]\n\n[color=#FFD35A]돌파[/color]  같은 장수 중복 소환시 자동 +1\n[color=#B3B3B3]최대 5돌파, 두 능력치 +5%\n초월권으로 강제돌파 가능 (1성 8장 · 2성 40장 · 3성 200장)[/color]\n\n[color=#FFD35A]초월[/color]  5돌파 후 초월 가능\n[color=#B3B3B3]최대 2초월, 두 능력치 +10\n초월 시 돌파는 0으로 초기화[/color]\n\n[color=#FFD35A]각성[/color]  2초월·5돌파 후 같은 병종의 2초월·5돌파 장수 소비\n[color=#B3B3B3]최대 4각성, 선택 능력치 +10\n이름 옆 자물쇠로 잠근 장수는 재료로 소비되지 않음\n4각성 장수는 시즌당 1회 각성 능력치 재배분 가능[/color]\n\n",
     "[color=#00F2E6]돌파 · 초월 · 각성은 영구[/color]\n[color=#B3B3B3]시즌이 지나도 보존[/color]"
   ],
   "summon": [
