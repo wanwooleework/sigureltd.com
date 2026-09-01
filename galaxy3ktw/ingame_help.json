@@ -86,9 +86,9 @@
     "[color=#FFD35A]獎勵[/color]  關門編號越高, 金錢越多\n[color=#B3B3B3]不消耗軍糧, 排行與聯盟分數不列入計算[/color]"
   ],
   "skin": [
-    "[color=#FFD35A]造型[/color]  完整替換武將的立繪 · 卡片 · 影片\n[color=#B3B3B3]不影響能力值[/color]\n\n",
+    "[color=#FFD35A]造型[/color]  完整替換武將的立繪與影片\n[color=#B3B3B3]不影響能力值[/color]\n\n",
     "[color=#00F2E6]套用[/color]  購買後於武將詳細畫面套用\n[color=#B3B3B3]持有同一名武將的多個造型時可隨時更換[/color]\n\n",
-    "[color=#00F2E6]販售期間[/color]  各造型皆不同, 可於卡片顯示的日期前購買\n[color=#B3B3B3]已購買的造型於販售結束後仍可繼續使用[/color]"
+    "[color=#00F2E6]販售期間[/color]  若有顯示日期, 則可於該日期前購買\n[color=#B3B3B3]已購買的造型於販售結束後仍可繼續使用[/color]"
   ],
   "drift": [
     "[color=#FFD35A]每週一 · 三 · 五[/color]  上午 9 時起出現 24 小時\n[color=#B3B3B3]週一 3 名 · 週三 6 名 · 週五 9 名武將可配置[/color]\n\n",

@@ -87,9 +87,9 @@
     "[color=#FFD35A]보상[/color]  관문 번호가 높을수록 금전 증가\n[color=#B3B3B3]군량 소모 없음, 랭킹과 연합 점수에는 반영되지 않음[/color]"
   ],
   "skin": [
-    "[color=#FFD35A]스킨[/color]  장수의 일러스트 · 카드 · 영상을 통째로 교체\n[color=#B3B3B3]능력치에는 영향 없음[/color]\n\n",
+    "[color=#FFD35A]스킨[/color]  장수의 일러스트와 영상을 모두 교체\n[color=#B3B3B3]능력치에는 영향 없음[/color]\n\n",
     "[color=#00F2E6]착용[/color]  구매 후 장수 상세 화면에서 적용\n[color=#B3B3B3]같은 장수의 스킨을 여러 개 보유하면 언제든 교체 가능[/color]\n\n",
-    "[color=#00F2E6]판매 기간[/color]  스킨마다 다름. 카드에 표시된 날짜까지 구매 가능\n[color=#B3B3B3]구매한 스킨은 판매가 끝나도 계속 사용 가능[/color]"
+    "[color=#00F2E6]판매 기간[/color]  표시된 날짜가 있다면 그때까지 구매 가능\n[color=#B3B3B3]구매한 스킨은 판매가 끝나도 계속 사용 가능[/color]"
   ],
   "drift": [
     "[color=#FFD35A]매주 월 · 수 · 금[/color]  오전 9시부터 24시간 동안 출현\n[color=#B3B3B3]월요일 3인 · 수요일 6인 · 금요일 9인의 장수 배치 가능[/color]\n\n",
