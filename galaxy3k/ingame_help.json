@@ -41,7 +41,7 @@
   ],
   "economy": [
     "[color=#B3B3B3]3인까지 배치 가능\n시간에 따라 저장되는 군량을 수확[/color]\n\n",
-    "[color=#00F2E6]은하 확장[/color]  금전으로 은하를 구매하여 확장\n[color=#B3B3B3]NGC 55: 10,000 금전\nNGC 247: 30,000 금전\nNGC 300: 80,000 금전\nNGC 404: 190,000 금전\nNGC 613: 420,000 금전\nNGC 891: 890,000 금전\nNGC 1097: 1,840,000 금전\nNGC 1532: 3,750,000 금전\nNGC 2841: 7,580,000 금전\nNGC 3949: 15,250,000 금전\nNGC 4414: 30,600,000 금전[/color]\n\n[color=#00F2E6]개발 투자[/color]  5은하 이후, 금전으로 개발 직접 투자 가능\n[color=#B3B3B3]신규 은하 확장의 절반 효율[/color]\n\n",
+    "[color=#00F2E6]은하 확장[/color]  금전으로 은하를 구매하여 확장\n[color=#B3B3B3]NGC 55: 10,000 금전\nNGC 247: 30,000 금전\nNGC 300: 80,000 금전\nNGC 404: 190,000 금전\nNGC 613: 420,000 금전\nNGC 891: 890,000 금전\nNGC 1097: 1,840,000 금전\nNGC 1532: 3,750,000 금전\nNGC 2841: 7,580,000 금전\nNGC 3949: 15,250,000 금전\nNGC 4414: 30,600,000 금전\nNGC 5055: 61,310,000 금전\nNGC 5548: 122,740,000 금전\nNGC 5866: 245,610,000 금전\nNGC 6050: 491,360,000 금전[/color]\n\n[color=#00F2E6]개발 투자[/color]  5은하 이후, 금전으로 개발 직접 투자 가능\n[color=#B3B3B3]신규 은하 확장의 절반 효율[/color]\n\n",
     "[color=#00F2E6]개발[/color]\n[color=#B3B3B3]일정 군량을 수확할 때마다 개발 +1, 해당 은하의 군량 보상 상승\n상한은 후반 은하로 갈수록 올라감[/color]\n\n",
     "[color=#00F2E6]위험도[/color]\n[color=#B3B3B3]해당 은하에 출현하는 적군 장수의 무력 합계를 결정, 병종은 랜덤[/color]\n\n",
     "[color=#FFD35A]수확 보상[/color]\n후반 은하로 갈수록 기본 배수 증가\n배치 지력 합계와 개발에 비례하여 보상 증가"
@@ -52,8 +52,8 @@
     "[color=#00F2E6]군량 상품[/color]\n[color=#FFD35A]회복권[/color]  장수 전원 즉시 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신\n[color=#B3B3B3]회복권 가격은 최고 은하 출정비와 동일\n갱신권 가격은 그 10분의 1\n두 상품 모두 구매마다 2배씩 증가\n매일 오전 9시 가격 리셋\n접속 중 오전 9시가 지난 경우 재접속 후 반영[/color]"
   ],
   "ranking": [
-    "[color=#00F2E6]개인 랭킹[/color]\n[color=#FFD35A]군량 획득[/color]  [color=#B3B3B3]일괄 수확으로 인한 누적 획득량[/color]\n1위 상국 · 2·3위 시중 칭호 획득\n[color=#FFD35A]능력 총합[/color]  [color=#B3B3B3]모든 장수의 무력, 지력 총합[/color]\n1위 태부 · 2·3위 소부 칭호 획득\n[color=#FFD35A]출정 횟수[/color]  [color=#B3B3B3]승패와 관련없는 군사 출정 횟수, 암흑성운 제외[/color]\n1위 대사마 · 2·3위 사마 칭호 획득\n\n",
-    "[color=#00F2E6]연합 랭킹[/color]\n[color=#B3B3B3]멤버 전원의 출정 금전 보상 합계[/color]\n[color=#FFD35A]패왕[/color]  1위 연합의 점수 1등 칭호 획득\n[color=#FFD35A]영웅집결[/color]  1위 연합원 전원 칭호 획득"
+    "[color=#00F2E6]개인 랭킹[/color]\n[color=#FFD35A]군량 획득[/color]  [color=#B3B3B3]수확 · 표류성단 누적 획득량[/color]\n1위 상국 · 2·3위 시중 칭호 획득\n[color=#FFD35A]능력 총합[/color]  [color=#B3B3B3]모든 장수의 무력, 지력 총합[/color]\n1위 태부 · 2·3위 소부 칭호 획득\n[color=#FFD35A]출정 횟수[/color]  [color=#B3B3B3]승패와 관련없는 군사 출정 횟수, 암흑성운 제외[/color]\n1위 대사마 · 2·3위 사마 칭호 획득\n\n",
+    "[color=#00F2E6]연합 랭킹[/color]\n[color=#B3B3B3]멤버 전원의 출정 · 중력관문 금전 보상 합계[/color]\n[color=#FFD35A]패왕[/color]  1위 연합의 점수 1등 칭호 획득\n[color=#FFD35A]영웅집결[/color]  1위 연합원 전원 칭호 획득"
   ],
   "quest": [
     "[color=#00F2E6]임무 종류[/color]\n[color=#FFD35A]일일[/color]  매일 오전 9시 리셋\n[color=#FFD35A]주간[/color]  일요일 오전 9시 리셋\n[color=#FFD35A]시즌[/color]  시즌 리셋\n[color=#B3B3B3]일일 · 주간은 접속 중 오전 9시가 지난 경우 재접속 후 반영[/color]\n\n",
@@ -63,7 +63,7 @@
     "[color=#FFD35A]연합원 18인 정원[/color]  창설비용 금전 10,000\n\n",
     "[color=#00F2E6]가입 승인제[/color]\n[color=#B3B3B3]시즌 첫 24시간만 자유 탈퇴 및 강퇴 가능\n24시간 이후 부터 연합 탈퇴 불가\n연합 가입은 시즌 중 언제든지 자유롭게 가능[/color]\n\n",
     "[color=#00F2E6]강퇴 기준[/color]\n[color=#B3B3B3]연합장은 24시간 미접 연합원 강퇴 가능\n연합장이 3일 미접속일 경우 부연합장이 자동으로 연합장 승계\n부연합장 부재 시 가장 오래된 연합원이 자동으로 연합장 승계[/color]\n\n",
-    "[color=#00F2E6]출석 보상[/color]  소환권 조각 5개\n\n[color=#00F2E6]연합 점수[/color]  멤버 전원의 출정 금전 보상 합계\n[color=#B3B3B3]1위 연합 전원 영웅집결 칭호 획득[/color]"
+    "[color=#00F2E6]출석 보상[/color]  소환권 조각 5개\n\n[color=#00F2E6]연합 점수[/color]  멤버 전원의 출정 · 중력관문 금전 보상 합계\n[color=#B3B3B3]1위 연합 전원 영웅집결 칭호 획득[/color]"
   ],
   "nebula": [
     "[color=#B3B3B3]연합 전용, 무소속은 참여 불가[/color]\n\n",
@@ -84,7 +84,7 @@
     "[color=#00F2E6]매일 오전 9시 초기화[/color]\n[color=#B3B3B3]어제 돌파한 관문도 오늘 다시 돌파해야 보상을 수령\n지명되는 장수 매일 새롭게 갱신[/color]\n\n",
     "[color=#00F2E6]지명과 대체[/color]\n[color=#B3B3B3]관문이 슬롯마다 장수 한 명을 지명, 세 슬롯을 모두 채워야 파견\n지명된 장수 배치 시 보상 전액 수령 가능\n같은 병종, 같은 성급의 다른 장수로 파견 가능\n대체 장수 슬롯당 보상 25% 감소[/color]\n\n",
     "[color=#FFD35A]파견 24시간[/color]  파견한 장수는 24시간 동안 사용 불가\n[color=#B3B3B3]군사 출정 · 내정 배치 · 암흑성운 · 각성 재료 전부 해당\n지명 · 대체 구분 없이 동일, 회복권으로 해제 불가[/color]\n\n",
-    "[color=#FFD35A]보상[/color]  관문 번호가 높을수록 금전 증가\n[color=#B3B3B3]군량 소모 없음, 랭킹과 연합 점수에는 반영되지 않음[/color]"
+    "[color=#FFD35A]보상[/color]  관문 번호가 높을수록 금전 증가\n[color=#B3B3B3]군량 소모 없음, 획득 금전은 연합 점수에 반영[/color]"
   ],
   "skin": [
     "[color=#FFD35A]스킨[/color]  장수의 일러스트와 영상을 모두 교체\n[color=#B3B3B3]능력치에는 영향 없음[/color]\n\n",

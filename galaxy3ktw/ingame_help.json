@@ -40,7 +40,7 @@
   ],
   "economy": [
     "[color=#B3B3B3]最多可配置 3 人\n收穫隨時間儲存的軍糧[/color]\n\n",
-    "[color=#00F2E6]銀河擴張[/color]  以金錢購買銀河進行擴張\n[color=#B3B3B3]NGC 55: 10,000 金錢\nNGC 247: 30,000 金錢\nNGC 300: 80,000 金錢\nNGC 404: 190,000 金錢\nNGC 613: 420,000 金錢\nNGC 891: 890,000 金錢\nNGC 1097: 1,840,000 金錢\nNGC 1532: 3,750,000 金錢\nNGC 2841: 7,580,000 金錢\nNGC 3949: 15,250,000 金錢\nNGC 4414: 30,600,000 金錢[/color]\n\n[color=#00F2E6]開發投資[/color]  第 5 銀河以後, 可用金錢直接投資開發\n[color=#B3B3B3]為擴張新銀河的一半效率[/color]\n\n",
+    "[color=#00F2E6]銀河擴張[/color]  以金錢購買銀河進行擴張\n[color=#B3B3B3]NGC 55: 10,000 金錢\nNGC 247: 30,000 金錢\nNGC 300: 80,000 金錢\nNGC 404: 190,000 金錢\nNGC 613: 420,000 金錢\nNGC 891: 890,000 金錢\nNGC 1097: 1,840,000 金錢\nNGC 1532: 3,750,000 金錢\nNGC 2841: 7,580,000 金錢\nNGC 3949: 15,250,000 金錢\nNGC 4414: 30,600,000 金錢\nNGC 5055: 61,310,000 金錢\nNGC 5548: 122,740,000 金錢\nNGC 5866: 245,610,000 金錢\nNGC 6050: 491,360,000 金錢[/color]\n\n[color=#00F2E6]開發投資[/color]  第 5 銀河以後, 可用金錢直接投資開發\n[color=#B3B3B3]為擴張新銀河的一半效率[/color]\n\n",
     "[color=#00F2E6]開發度[/color]\n[color=#B3B3B3]每收穫一定軍糧開發度 +1, 該銀河的軍糧報酬上升\n上限隨後段銀河而提高[/color]\n\n",
     "[color=#00F2E6]危險度[/color]\n[color=#B3B3B3]決定該銀河出現的敵軍武將武力合計, 兵種隨機[/color]\n\n",
     "[color=#FFD35A]收穫報酬[/color]\n越往後段銀河基本倍率越高\n依配置智力合計與開發度比例提升報酬"
@@ -51,8 +51,8 @@
     "[color=#00F2E6]軍糧商品[/color]\n[color=#FFD35A]恢復券[/color]  武將全員立即恢復\n[color=#FFD35A]刷新券[/color]  刷新出征敵軍\n[color=#B3B3B3]恢復券價格等於最高銀河出征費\n刷新券價格為其十分之一\n兩種商品每次購買皆翻倍\n每日上午 9 點價格重置\n若在遊玩中經過上午 9 點, 需重新連線後才會更新[/color]"
   ],
   "ranking": [
-    "[color=#00F2E6]個人排名[/color]\n[color=#FFD35A]軍糧獲得[/color]  [color=#B3B3B3]收穫累積獲得量[/color]\n第 1 名相國 · 第 2·3 名侍中稱號\n[color=#FFD35A]能力總合[/color]  [color=#B3B3B3]所有武將的武力, 智力總合[/color]\n第 1 名太傅 · 第 2·3 名少府稱號\n[color=#FFD35A]出征次數[/color]  [color=#B3B3B3]不分勝敗的所有出征次數[/color]\n第 1 名大司馬 · 第 2·3 名司馬稱號\n\n",
-    "[color=#00F2E6]聯盟排名[/color]\n[color=#B3B3B3]全體成員出征金錢報酬合計[/color]\n[color=#FFD35A]霸王[/color]  第 1 名聯盟積分第一者稱號\n[color=#FFD35A]英雄集結[/color]  第 1 名聯盟全員稱號"
+    "[color=#00F2E6]個人排名[/color]\n[color=#FFD35A]軍糧獲得[/color]  [color=#B3B3B3]收穫 · 漂流星團累積獲得量[/color]\n第 1 名相國 · 第 2·3 名侍中稱號\n[color=#FFD35A]能力總合[/color]  [color=#B3B3B3]所有武將的武力, 智力總合[/color]\n第 1 名太傅 · 第 2·3 名少府稱號\n[color=#FFD35A]出征次數[/color]  [color=#B3B3B3]不分勝敗的所有出征次數[/color]\n第 1 名大司馬 · 第 2·3 名司馬稱號\n\n",
+    "[color=#00F2E6]聯盟排名[/color]\n[color=#B3B3B3]全體成員出征 · 重力關門金錢報酬合計[/color]\n[color=#FFD35A]霸王[/color]  第 1 名聯盟積分第一者稱號\n[color=#FFD35A]英雄集結[/color]  第 1 名聯盟全員稱號"
   ],
   "quest": [
     "[color=#00F2E6]任務種類[/color]\n[color=#FFD35A]每日[/color]  每日上午 9 點重置\n[color=#FFD35A]每週[/color]  每週日上午 9 點重置\n[color=#FFD35A]賽季[/color]  賽季重置\n[color=#B3B3B3]每日 · 每週於遊玩中經過上午 9 點時, 需重新連線後才會更新[/color]\n\n",
@@ -62,7 +62,7 @@
     "[color=#FFD35A]聯盟成員 18 人上限[/color]  創設費用金錢 10,000\n\n",
     "[color=#00F2E6]加入採審核制[/color]\n[color=#B3B3B3]賽季開始 24 小時內可自由退出及踢除\n24 小時後無法退出聯盟\n聯盟加入於賽季中隨時皆可[/color]\n\n",
     "[color=#00F2E6]踢除基準[/color]\n[color=#B3B3B3]盟主可踢除 24 小時未上線的成員\n盟主 3 天未上線時由副盟主自動繼承盟主\n無副盟主時由最資深成員自動繼承盟主[/color]\n\n",
-    "[color=#00F2E6]簽到獎勵[/color]  召喚券碎片 5 個\n\n[color=#00F2E6]聯盟積分[/color]  全體成員出征金錢報酬合計\n[color=#B3B3B3]第 1 名聯盟全員英雄集結稱號[/color]"
+    "[color=#00F2E6]簽到獎勵[/color]  召喚券碎片 5 個\n\n[color=#00F2E6]聯盟積分[/color]  全體成員出征 · 重力關門金錢報酬合計\n[color=#B3B3B3]第 1 名聯盟全員英雄集結稱號[/color]"
   ],
   "nebula": [
     "[color=#B3B3B3]聯盟專用, 無所屬無法參與[/color]\n\n",
@@ -83,7 +83,7 @@
     "[color=#00F2E6]每日上午 9 時重置[/color]\n[color=#B3B3B3]昨日已突破的關門, 今日需再次突破方可領取獎勵\n指名武將每日重新更新[/color]\n\n",
     "[color=#00F2E6]指名與替代[/color]\n[color=#B3B3B3]關門於每個格位指名一名武將, 需填滿 3 個格位方可派遣\n配置被指名的武將可獲得全額獎勵\n可用相同兵種, 相同星級的其他武將派遣\n替代武將每格獎勵減少 25%[/color]\n\n",
     "[color=#FFD35A]派遣 24 小時[/color]  派遣的武將 24 小時內無法使用\n[color=#B3B3B3]軍師出征 · 內政配置 · 暗黑星雲 · 覺醒素材皆適用\n指名與替代皆相同, 無法以恢復券解除[/color]\n\n",
-    "[color=#FFD35A]獎勵[/color]  關門編號越高, 金錢越多\n[color=#B3B3B3]不消耗軍糧, 排行與聯盟分數不列入計算[/color]"
+    "[color=#FFD35A]獎勵[/color]  關門編號越高, 金錢越多\n[color=#B3B3B3]不消耗軍糧, 獲得的金錢計入聯盟積分[/color]"
   ],
   "skin": [
     "[color=#FFD35A]造型[/color]  完整替換武將的立繪與影片\n[color=#B3B3B3]不影響能力值[/color]\n\n",
