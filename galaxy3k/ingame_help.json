@@ -48,7 +48,7 @@
   ],
   "shop": [
     "[color=#00F2E6]현금 상품[/color]\n[color=#FFD35A]소환권 패키지[/color]  소환권 3개 (시즌 1회 할인)\n[color=#FFD35A]저장창고 패키지[/color]  30일간 군량 24시간 저장\n[color=#FFD35A]예약출정 패키지[/color]  30일간 회복 중 예약출정\n[color=#FFD35A]소환권[/color]  1 · 5 · 10개 단위\n[color=#B3B3B3]소환권 1장 → 10연 소환[/color]\n\n",
-    "[color=#00F2E6]금전 상품[/color]\n[color=#FFD35A]병종 훈련[/color]  보병 · 기병 · 궁병\n[color=#B3B3B3]출정 무력 +5 / +10 / +15% (3단계)\n비용 누진: 10만 → 30만 → 60만 금전[/color]\n\n",
+    "[color=#00F2E6]금전 상품[/color]\n[color=#FFD35A]병종 훈련[/color]  보병 · 기병 · 궁병\n[color=#B3B3B3]출정 무력 +5 / +10 / +15 / +25% (4단계)\n비용 누진: 20만 → 40만 → 80만 → 240만 금전[/color]\n\n",
     "[color=#00F2E6]군량 상품[/color]\n[color=#FFD35A]회복권[/color]  장수 전원 즉시 회복\n[color=#FFD35A]갱신권[/color]  출정 적군 갱신\n[color=#B3B3B3]회복권 가격은 최고 은하 출정비와 동일\n갱신권 가격은 그 10분의 1\n두 상품 모두 구매마다 2배씩 증가\n매일 오전 9시 가격 리셋\n접속 중 오전 9시가 지난 경우 재접속 후 반영[/color]"
   ],
   "ranking": [
