@@ -1,0 +1,115 @@
+{
+  "_edit_guide": [
+    "In-game help, one entry per screen (key = App screen id, title = main_shell _INFO_TITLES). Value = bbcode paragraphs, one RichTextLabel block each.",
+    "Same order on every screen: one-line summary (muted) → How it works → Rewards → Resets / Notes. Skip empty parts.",
+    "Colors: heading [color=#00F2E6] · item / number [color=#FFD35A] · side note [color=#B3B3B3].",
+    "{path} = server value from _balance (e.g. {alliance.max_members}). Formatters: |pct (×100), |h (ms → hours), |n (thousands). Unknown key → shown as-is, so a typo is visible.",
+    "One fact lives on one screen (docs/help_facts.md §3). Others point to it. Hidden rules (Bond, hidden titles, season hero rewards) are never written here.",
+    "Keys starting with _ are not screens."
+  ],
+  "nexus": [
+    "[color=#B3B3B3]Your daily loop: harvest Food → send Sorties for Gold → buy Sectors → repeat.[/color]\n\n",
+    "[color=#00F2E6]Resources[/color]\n[color=#FFD35A]Food[/color]  Harvest, Signal Lock, Drift Cluster, daily Missions\n[color=#B3B3B3]Spent on Sorties, Train, Recovery and Refresh Tickets[/color]\n[color=#FFD35A]Gold[/color]  Sortie wins, Gravity Gate, Gravity Abyss, weekly Missions\n[color=#B3B3B3]Spent on Sectors, Growth, Unit Training, founding an Alliance[/color]\n[color=#B3B3B3]Short on Food? Tap Food or Gold at the top to trade {inventory.gold_per_food} Gold for 1 Food.[/color]\n\n",
+    "[color=#00F2E6]Might and Mind[/color]\n[color=#FFD35A]Might[/color]  Sortie strength and Gold, shorter recovery\n[color=#FFD35A]Mind[/color]  Food production and storage time\n\n[color=#00F2E6]Unit Counters[/color]\nCavalry beats Infantry · Infantry beats Archer · Archer beats Cavalry\n[color=#B3B3B3]Advantage ×{combat.counter_bonus}, disadvantage ×{combat.counter_penalty}, same type ×1. Applies to your side only.[/color]\n\n",
+    "[color=#00F2E6]Items[/color]\n[color=#FFD35A]Kept forever[/color]  Summon Ticket · Transcend Ticket · Explore Ticket\n[color=#FFD35A]This season only[/color]  Recovery Ticket · Refresh Ticket\n[color=#B3B3B3]{inventory.shard_per_ticket} Shards = 1 Ticket of the same kind (Storage).\nRecovery Tickets don't free Mythos on a Gravity Gate, in a Supernova or in a Drift Cluster.[/color]\n\n",
+    "[color=#00F2E6]Daily reset · 00:00 Server Time (UTC+1)[/color]\n[color=#B3B3B3]Missions · Shop prices · Signal Lock · Alliance Check-in · Dark Nebula · Gravity Gate and Abyss\nWeekly Missions reset Sunday 00:00.\nIf you stay in the game past midnight, screens update with the next server response.[/color]\n\n",
+    "[color=#00F2E6]14-day seasons[/color]\n[color=#FFD35A]Reset[/color]  Food · Gold · Sectors (your first one stays) · Train · Unit Training · season items · Rankings · season Missions\n[color=#FFD35A]Kept[/color]  Mythos (Ascend, Transcend, Awaken) · Summon and Transcend Tickets · nickname · titles · Alliance · Summon pity count\n[color=#B3B3B3]The last hour of each season is maintenance for results.\nYour Mythos roster is what carries into the next season.[/color]\n\n",
+    "[color=#00F2E6]Signal Lock[/color]\n[color=#B3B3B3]Short mini-games for Food. Better results raise the chance of a big reward.\nThe more you win in a day, the harder it gets.[/color]"
+  ],
+  "mythos": [
+    "[color=#B3B3B3]Every Mythos released so far. Owned ones come first; tap one to grow it.[/color]\n\n",
+    "[color=#00F2E6]Filter · Sort[/color]\n[color=#B3B3B3]Unit type · Mythos ready to Transcend (TRA) or Awaken (AWK)\nSort by total, Might or Mind — the card shows that value[/color]\n\n",
+    "[color=#00F2E6]Version[/color]\n[color=#B3B3B3]v.X.Y on each card\nX = grade + Transcend · Y = Ascend + Awaken\n★1 with no growth = v.1.0\n★2, Transcend 1, Ascend 2 = v.3.2\n★3, Transcend 2, Ascend 5, Awaken 3 = v.5.8[/color]\n\n",
+    "[color=#B3B3B3]What Might and Mind do → Game Guide on Nexus[/color]"
+  ],
+  "mythos_detail": [
+    "[color=#B3B3B3]Grow a Mythos in four steps: Train, Ascend, Transcend, Awaken.[/color]\n\n",
+    "[color=#FFD35A]Train[/color]  Spend Food, up to +{mythos.train_max} on each stat\n[color=#B3B3B3]Cost rises with the stat. Not available once the stat reaches {mythos.ability_cap}.\nResets every season.[/color]\n\n",
+    "[color=#FFD35A]Ascend[/color]  +1 each time you get a duplicate\n[color=#B3B3B3]Up to {mythos.max_ascend}, both stats +{mythos.ascend_bonus_percent}% each.\nDuplicates after Ascend {mythos.max_ascend} turn into Transcend Tickets.\nForce Ascend spends Transcend Tickets instead.[/color]\n\n",
+    "[color=#FFD35A]Transcend[/color]  At Ascend {mythos.max_ascend}, spend Transcend Tickets\n[color=#B3B3B3]Up to {mythos.max_transcend}, both stats +{mythos.transcend_bonus}. Ascend goes back to 0.[/color]\n\n",
+    "[color=#FFD35A]Awaken[/color]  At full Transcend and Ascend, use another fully grown Mythos of the same unit type as material\n[color=#B3B3B3]Up to {mythos.max_awaken}, +{mythos.awaken_stat_per} to the stat you choose.\nThe material Mythos is gone for good and must be resting.\nLock a Mythos (next to its name) to keep it from being used as material.\nAt Awaken {mythos.max_awaken}, you can redistribute once per season.[/color]\n\n",
+    "[color=#00F2E6]Kept forever[/color]\n[color=#B3B3B3]Ascend, Transcend and Awaken carry over between seasons.[/color]"
+  ],
+  "summon": [
+    "[color=#B3B3B3]1 Summon Ticket = {summon.rolls_per_ticket} summons.[/color]\n\n",
+    "[color=#00F2E6]Limited Summon[/color]\n[color=#B3B3B3]Three each season, one per unit type, each with a Pickup Mythos.\nAfter the season, its Mythos join the Regular Summon.[/color]\n\n[color=#00F2E6]Regular Summon[/color]\n[color=#B3B3B3]Mythos from past Limited Summons. Choose a Theme, then a ★3 Pickup Mythos.\nChanging your Pickup keeps your pity count.[/color]\n\n",
+    "[color=#FFD35A]★3 Pickup[/color]  When a ★3 appears, {summon.pickup_percent}% chance it's the Pickup Mythos\n[color=#B3B3B3]{summon.pickup_event_percent}% during the Pickup Boost Event (first and last 24 hours of a season)[/color]\n\n[color=#FFD35A]Pity[/color]  Every 50th summon on the same Summon is the Pickup Mythos\n[color=#B3B3B3]The count carries over between seasons.[/color]\n\n",
+    "[color=#B3B3B3]Exact odds and every Mythos → Odds on each Summon[/color]"
+  ],
+  "military": [
+    "[color=#B3B3B3]Send 3 Mythos against a Sector's enemies. Win for Gold.[/color]\n\n",
+    "[color=#00F2E6]How it works[/color]\n[color=#B3B3B3]Each Sortie costs Food. A win pays Gold; a loss costs half the Food and half the recovery.\nEnemy Might is fixed. Unit counters apply to your side only.\nThe enemy stays the same until your next Sortie or a Refresh.\nMythos deployed in Economy can't go on a Sortie.[/color]\n\n",
+    "[color=#FFD35A]Recovery[/color]  Mythos rest after a Sortie\n[color=#B3B3B3]Higher Might, shorter rest.[/color]\n\n[color=#FFD35A]Order[/color]  +{military.order_per_sortie} per Sortie, win or lose, up to {military.order_cap}\n[color=#B3B3B3]Raises that Sector's Gold.[/color]\n\n",
+    "[color=#FFD35A]Scout[/color]  Your deployed Mind in that Sector, boosted by Order, against the enemy's Might\n[color=#B3B3B3]Equal or higher: unit types and Might shown\nClose: unit types only\nToo low: no intel[/color]\n\n[color=#FFD35A]Refresh[/color]  A Refresh Ticket rerolls the enemies\n[color=#B3B3B3]Use it for a better matchup. The reward doesn't change.[/color]\n\n",
+    "[color=#00F2E6]Gold reward[/color]\n[color=#B3B3B3]Grows with later Sectors, your party's Might after counters, the enemy's Might and Order.\nAlliance Gold Bonus → Dark Nebula[/color]\n\n",
+    "[color=#00F2E6]Reserve Pack[/color]\n[color=#B3B3B3]Sortie with recovering Mythos. The battle is decided right away and can't be undone.\nGold arrives when the last of the three recovers. A Recovery Ticket pays out the whole queue at once.\nReserved Sorties end with the season.[/color]"
+  ],
+  "economy": [
+    "[color=#B3B3B3]Deploy up to 3 Mythos per Sector. Food builds up over time; harvest it.[/color]\n\n",
+    "[color=#00F2E6]Production[/color]\n[color=#B3B3B3]Grows with later Sectors, the deployed Mythos' Mind and Growth.\nStorage fills in Mind × {economy.storage_minutes_per_mind} minutes. With the Storage Pack, every Sector stores 24 hours.\nHarvest All on Nexus collects every Sector.[/color]\n\n",
+    "[color=#FFD35A]New Sector[/color]  Buy with Gold, one after another\n[color=#FFD35A]Growth[/color]  Rises as you harvest, raises that Sector's Food\n[color=#B3B3B3]Each Sector has a higher cap than the one before.\nFrom your 5th Sector on, buy +{economy.growth_buy_step} Growth with Gold — half as efficient as a new Sector.[/color]\n\n",
+    "[color=#FFD35A]Threat[/color]  The enemy's total Might in that Sector\n[color=#B3B3B3]Unit types are random.[/color]\n\n",
+    "[color=#00F2E6]Tools[/color]\n[color=#B3B3B3]Auto Deploy fills empty slots, highest Mind first. Unassign All clears every Sector.\nPresets save a group of 3 to deploy anywhere.\nMythos deployed here can't go on a Sortie.[/color]"
+  ],
+  "shop": [
+    "[color=#00F2E6]Packages[/color]\n[color=#FFD35A]Summon Pack[/color]  3 Summon Tickets, once per season\n[color=#B3B3B3]New Curators see the Starter Pack here for their first 7 days. If you bought last season, it comes at an extra discount.[/color]\n[color=#FFD35A]Storage Pack[/color]  Every Sector stores 24 hours of Food, 30 days\n[color=#FFD35A]Reserve Pack[/color]  Sortie with recovering Mythos, 30 days\n[color=#B3B3B3]Buying again adds 30 days.[/color]\n\n",
+    "[color=#00F2E6]Premium[/color]\n[color=#FFD35A]Summon Tickets[/color]  1 · 5 · 10\n\n",
+    "[color=#00F2E6]Unit Training · Gold[/color]\n[color=#B3B3B3]Raises the Might of one unit type, 4 levels.\nCounts on Sorties, Dark Nebula, Supernova and Gravity Abyss. Not on Gravity Gate.\nResets every season.[/color]\n\n",
+    "[color=#00F2E6]Season Items · Food[/color]\n[color=#FFD35A]Recovery Ticket[/color]  Recovers all Mythos\n[color=#FFD35A]Refresh Ticket[/color]  Rerolls Sortie enemies\n[color=#B3B3B3]A Recovery Ticket costs the Sortie Food of your best Sector; a Refresh Ticket costs one tenth.\nEach purchase doubles the price. Prices reset daily and rise when you buy a new Sector.[/color]"
+  ],
+  "missions": [
+    "[color=#00F2E6]Missions[/color]\n[color=#FFD35A]Daily[/color]  reset every day\n[color=#FFD35A]Weekly[/color]  reset Sunday\n[color=#FFD35A]Season[/color]  reset with the season\n[color=#B3B3B3]Clear 3 and 5 for extra rewards. Daily and weekly rewards grow as the season goes on.\n\"Train\" means Training a Mythos, not Unit Training.[/color]\n\n",
+    "[color=#00F2E6]Special Ops[/color]\n[color=#B3B3B3]For new Curators — the button appears on Nexus while rewards remain.\nThe last reward lets you choose a ★3 Mythos.[/color]"
+  ],
+  "ranking": [
+    "[color=#B3B3B3]Top {ranking.top_n}, updated every 15 minutes. You see your own score below.\nTies go to whoever got there first.[/color]\n\n",
+    "[color=#00F2E6]Personal[/color]\n[color=#FFD35A]Food[/color]  Food harvested and from Drift Clusters\n[color=#B3B3B3]Bought Food doesn't count. #1 Archon · #2–3 Quaestor[/color]\n[color=#FFD35A]Stat[/color]  Might + Mind of all your Mythos\n[color=#B3B3B3]#1 Paragon · #2–3 Luminary[/color]\n[color=#FFD35A]Sorties[/color]  Sorties sent, win or lose\n[color=#B3B3B3]Dark Nebula, Gravity Gate, Abyss and Supernova don't count. #1 Polemarch · #2–3 Praetor[/color]\n\n",
+    "[color=#00F2E6]Rewards[/color]\n[color=#B3B3B3]Summon Tickets for every ranking, added together, delivered when the season ends.\nThe Alliance ranking is on the Alliance screen.[/color]"
+  ],
+  "alliance": [
+    "[color=#FFD35A]Up to {alliance.max_members} members[/color]  Founding costs {alliance.create_cost_gold|n} Gold\n\n",
+    "[color=#00F2E6]Joining · Leaving[/color]\n[color=#B3B3B3]Apply anytime; the Leader or Vice Leader approves. One application at a time.\nLeaving and removing members only in the first {alliance.free_move_ms|h} hours of a season.[/color]\n\n",
+    "[color=#00F2E6]Leadership[/color]\n[color=#B3B3B3]The Leader can remove members away for {alliance.afk_kick_ms|h} hours, anytime.\nIf the Leader is away for {alliance.afk_promote_ms|h} hours, the Vice Leader takes over — or the longest-standing active member.[/color]\n\n",
+    "[color=#FFD35A]Check-in[/color]  {alliance.attendance_reward_shards} Summon Shards a day\n\n[color=#FFD35A]Alliance Score[/color]  Gold members earn from Sorties, Gravity Gate and Abyss after joining\n[color=#B3B3B3]Resets each season. #1 Alliance: all members Argonaut, top scorer Hegemon.[/color]\n\n",
+    "[color=#00F2E6]Name · Tag[/color]\n[color=#B3B3B3]Name {alliance.name_min_len}–{alliance.name_max_len} letters. Tag: 3 letters or digits, unique, shown in Rankings as [TAG]. Only the Leader edits the Tag, Description and Announcement.[/color]"
+  ],
+  "nebula": [
+    "[color=#B3B3B3]Alliance members only. Opens from Season 2.[/color]\n\n",
+    "[color=#FFD35A]One win a day[/color]  Retry freely until you win\n[color=#B3B3B3]No Food cost — Mythos just need to recover. A loss means half the recovery.\nNot counted in Sorties, Gold, Order or Rankings.[/color]\n\n",
+    "[color=#00F2E6]No scouting[/color]\n[color=#B3B3B3]Only Threat is shown. Party Might about 1.5× the Threat wins regardless of unit types.\nA loss tells you nothing, and the same party always gets the same result.\nEvery member faces the same enemy, new each day. Only today's winners can see it.[/color]\n\n",
+    "[color=#00F2E6]Choosing a Nebula[/color]\n[color=#B3B3B3]The Leader picks tomorrow's Nebula. Each has its own Threat and reward.[/color]\n\n",
+    "[color=#FFD35A]Win reward[/color]  Explore Shards\n[color=#FFD35A]Alliance reward[/color]  {nebula.alliance_shards} Explore Shard for everyone if {nebula.alliance_min_wins}+ members win\n[color=#B3B3B3]Claimed with the next day's Check-in. Skip it and it's gone.[/color]\n[color=#FFD35A]Alliance Gold Bonus[/color]  Tomorrow's Sortie Gold rises for every member\n[color=#B3B3B3]Grows with the total Might of today's winning parties.[/color]"
+  ],
+  "explore": [
+    "[color=#FFD35A]1 Explore Ticket[/color]  One ★3 Mythos, guaranteed\n\n",
+    "[color=#00F2E6]Explore-only Mythos[/color]\n[color=#B3B3B3]They never appear in Summons. Growth works the same as any Mythos.\nAlliance members only. Each Nebula's pool opens in a different season.[/color]\n\n",
+    "[color=#B3B3B3]{inventory.shard_per_ticket} Explore Shards = 1 Explore Ticket (Storage)[/color]"
+  ],
+  "gate": [
+    "[color=#FFD35A]One more Gate each day you visit[/color]\n[color=#B3B3B3]Clear them in order. Back to Gate 1 every season.[/color]\n\n",
+    "[color=#00F2E6]Daily reset[/color]\n[color=#B3B3B3]Clear them again each day to earn again. The requested Mythos change daily.[/color]\n\n",
+    "[color=#00F2E6]Requested Mythos[/color]\n[color=#B3B3B3]Each slot calls for one Mythos. Fill all {gate.slots_per_gate} to dispatch.\nThe requested Mythos pays in full. Any Mythos of the same unit type and grade can stand in, at -{gate.substitute_rate|pct}% per slot.\nMythos deployed in Economy can't go.[/color]\n\n",
+    "[color=#FFD35A]Exile {gate.exile_ms|h}h[/color]  Dispatched Mythos can't be used anywhere\n[color=#B3B3B3]Sortie, Economy, Dark Nebula, Awaken material. A Recovery Ticket doesn't help.[/color]\n\n",
+    "[color=#FFD35A]Reward[/color]  More Gold for higher Gates\n[color=#B3B3B3]No Food cost. Counts toward your Alliance Score, not personal Rankings.[/color]"
+  ],
+  "abyss": [
+    "[color=#FFD35A]Opens when you clear every Gate open today[/color]\n[color=#B3B3B3]It appears at the end of the Gate list and resets with the Gates.[/color]\n\n",
+    "[color=#00F2E6]Three duels[/color]\n[color=#B3B3B3]Face 3 enemies one by one, ★1 to ★3. Everyone faces the same ones.\nUse a different Mythos for each.[/color]\n\n",
+    "[color=#00F2E6]Same unit type only[/color]\n[color=#B3B3B3]Any grade. No unit counters.[/color]\n\n",
+    "[color=#FFD35A]Might at or above the enemy's wins[/color]  No losses\n[color=#B3B3B3]The Might you see is what counts, Unit Training and Radiance included.\nEnemies grow stronger as the season goes on.\nEach win sends that Mythos to recover, like a Sortie. No Food cost.[/color]\n\n",
+    "[color=#FFD35A]Finish Abyss[/color]  Tap it to collect\n[color=#B3B3B3]Stop after any win. More wins, more Gold — based on today's Gate rewards.\nOnce collected, the Abyss is over for the day. Counts toward your Alliance Score.\nDefeat the last enemy on the season's final day for the title Godslayer.[/color]"
+  ],
+  "drift": [
+    "[color=#FFD35A]Monday · Wednesday · Friday[/color]  Appears for one day\n[color=#B3B3B3]3 Mythos on Monday, 6 on Wednesday, 9 on Friday.[/color]\n\n",
+    "[color=#FFD35A]{drift.hourglass_ms|h} hours of work[/color]  Food builds up while your Mythos are there\n[color=#B3B3B3]No harvesting. Recall and redeploy anytime — the remaining time carries over.\nFood is paid when time runs out or the Cluster disappears.[/color]\n\n",
+    "[color=#00F2E6]Residents[/color]  Each Cluster shows its residents' unit type\n[color=#B3B3B3]Unit counters apply to Mind, like a Sortie. More Mind, more Food.[/color]\n\n",
+    "[color=#B3B3B3]Mythos there can't be used elsewhere, and a Recovery Ticket doesn't free them. They're ready the moment they return.\nCounts toward the Food ranking.[/color]"
+  ],
+  "supernova": [
+    "[color=#FFD35A]First Saturday to second Saturday of the season[/color]\n[color=#B3B3B3]One Supernova a day, decided at 12:00 Server Time — 8 in all.\nThe last one, SN 1604, is the final Supernova.[/color]\n\n",
+    "[color=#00F2E6]Alliance battle[/color]  The Alliance with the highest dispatched Might takes it\n[color=#B3B3B3]{supernova.party_size} Mythos per Curator, any number of members. Alliance members only.\nUnit Training counts; Radiance doesn't. Growing your Mythos before the verdict raises your score.\nTies go to the Alliance that dispatched first. Top 3 shown, updated every 15 minutes.[/color]\n\n",
+    "[color=#FFD35A]Bound for 24 hours[/color]  From the moment you dispatch\n[color=#B3B3B3]No recall, no Recovery Ticket. Mythos from a winning Alliance can't be sent again this season.[/color]\n\n",
+    "[color=#00F2E6]Rewards[/color]  Everyone who dispatched, win or lose\n[color=#B3B3B3]Recovery Shards · Refresh Ticket · Transcend Tickets · Explore Shards\nFinal Supernova winners also receive the title Empyrean, an Explore Ticket and Recovery Tickets.[/color]\n\n",
+    "[color=#FFD35A]Radiance[/color]  The winning Alliance gets +{supernova.buff_percent}% for 24 hours\n[color=#B3B3B3]For every member. Boosts Sortie Might and recovery, Economy and Drift Cluster Mind.\nNot counted in the next Supernova.[/color]"
+  ]
+}
