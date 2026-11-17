@@ -1,73 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SIGURE PTE. LTD.</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #000000;
-      color: #e0e0e0;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    }
-    main {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .logo {
-      width: 70%;
-      max-width: 480px;
-      height: auto;
-      display: block;
-    }
-    .contact {
-      margin-top: 32px;
-      margin-bottom: 32px;
-      font-size: 0.9rem;
-      color: #888;
-    }
-    .contact a {
-      color: #7ab3ff;
-      text-decoration: none;
-    }
-    .contact a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      text-align: center;
-      padding: 24px 20px;
-      font-size: 0.8rem;
-      color: #555;
-      border-top: 1px solid #1a1a1a;
-    }
-    footer a {
-      color: #777;
-      text-decoration: none;
-      margin: 0 12px;
-    }
-    footer a:hover {
-      color: #aaa;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SIGURE PTE. LTD.</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #171b22;
+    --line: #262c36;
+    --text: #eef1f5;
+    --muted: #9aa3b2;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans KR", "Noto Sans", sans-serif;
+    line-height: 1.5;
+  }
+  header { text-align: center; padding: 72px 16px 40px; }
+  .logo { margin: 0; line-height: 0; }
+  .logo img { width: 300px; max-width: 70vw; height: auto; }
+
+  main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 8px 16px 72px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner { aspect-ratio: 1024 / 500; background: #000 center / cover no-repeat; }
+  .body { padding: 22px; display: flex; flex-direction: column; gap: 18px; flex: 1; }
+  /* 제목은 위에 붙이고 배지 · COMING SOON은 아래로 — 배지가 두 줄로 쌓여도 세 카드의 제목 높이가 같다. */
+  .title { display: flex; align-items: center; gap: 14px; }
+  .icon { width: 64px; height: 64px; border-radius: 15px; flex: none; object-fit: cover; }
+  .title h2 { margin: 0; font-size: 22px; line-height: 1.25; }
+
+  .stores { display: flex; gap: 10px; flex-wrap: wrap; }
+  /* 공식 배지 — App Store(SVG, 여백 없음) · Google Play(PNG, 둘레 투명 여백 약 16%). 보이는 높이를 48px로 같게:
+     Google은 그림을 더 크게(72px) 그리고 여백만큼 음수 margin. */
+  .stores { align-items: center; margin-top: auto; }
+  .badge { display: inline-block; line-height: 0; }
+  .badge img { display: block; }
+  .badge.apple img { height: 48px; }
+  .badge.google img { height: 72px; margin: -12px; }
+  .badge:hover { opacity: 0.85; }
+  /* 출시 전 — 배지와 같은 높이(48px)라야 세 카드의 아래 줄이 맞는다. */
+  .soon {
+    display: inline-flex; align-items: center; height: 48px; padding: 0 16px; border-radius: 8px;
+    border: 1px dashed var(--line); color: var(--muted); font-size: 14px; font-weight: 700; letter-spacing: 0.06em;
+  }
+
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding: 0 16px 40px; }
+
+  @media (max-width: 480px) {
+    header { padding: 48px 16px 28px; }
+    .logo img { width: 220px; }
+  }
+</style>
 </head>
 <body>
-  <main>
-    <img class="logo" src="sigure-wordmark.png" alt="SIGURE PTE. LTD.">
-  </main>
-  <footer>
-    <p>&copy; 2026 SIGURE PTE. LTD. All rights reserved.</p>
-    <p style="margin-top: 8px;">
-      <a href="galaxy3k/privacy.html">Privacy Policy</a>
-      <a href="galaxy3k/terms.html">Terms of Service</a>
-      <a href="galaxy3k/support.html">Support</a>
-    </p>
-  </footer>
+
+<header>
+  <!-- 회사 로고 — 지금 홈페이지의 sigure-wordmark.png(흰 글자, 투명 배경) -->
+  <h1 class="logo"><img src="sigure-wordmark.png" alt="SIGURE PTE. LTD."></h1>
+</header>
+
+<main>
+
+  <!-- 은하삼국지 — 한국 버전만(TW · JP는 나중에) -->
+  <article class="card">
+    <div class="banner" style="background-image: url('img/galaxy3k_banner.webp');"></div>
+    <div class="body">
+      <div class="title">
+        <img class="icon" src="img/galaxy3k.webp" alt="">
+        <h2>은하삼국지</h2>
+      </div>
+      <div class="stores">
+        <a class="badge apple" href="https://apps.apple.com/app/id6772170080"><img src="img/badge_appstore.svg" alt="Download on the App Store"></a>
+        <a class="badge google" href="https://play.google.com/store/apps/details?id=com.sigure.galaxy3k"><img src="img/badge_googleplay.png" alt="Get it on Google Play"></a>
+      </div>
+    </div>
+  </article>
+
+  <article class="card">
+    <div class="banner" style="background-image: url('img/mythosgalaxy_banner.webp');"></div>
+    <div class="body">
+      <div class="title">
+        <img class="icon" src="img/mythosgalaxy.webp" alt="">
+        <h2>Mythos Galaxy</h2>
+      </div>
+      <div class="stores">
+        <a class="badge apple" href="https://apps.apple.com/app/id6822744342"><img src="img/badge_appstore.svg" alt="Download on the App Store"></a>
+        <a class="badge google" href="https://play.google.com/store/apps/details?id=com.sigure.mythosgalaxy"><img src="img/badge_googleplay.png" alt="Get it on Google Play"></a>
+      </div>
+    </div>
+  </article>
+
+  <!-- Erathon — 출시 전. 출시하면 COMING SOON을 위와 같은 공식 배지 둘로(App Store id6832499281 · com.sigure.erathon) -->
+  <article class="card">
+    <div class="banner" style="background-image: url('img/erathon_banner.webp');"></div>
+    <div class="body">
+      <div class="title">
+        <img class="icon" src="img/erathon.webp" alt="">
+        <h2>Erathon</h2>
+      </div>
+      <div class="stores"><span class="soon">COMING SOON</span></div>
+    </div>
+  </article>
+
+</main>
+
+<footer>© 2026 SIGURE PTE. LTD. All rights reserved.</footer>
+
 </body>
 </html>
